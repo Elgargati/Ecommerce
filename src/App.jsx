@@ -49,7 +49,7 @@ export default class App extends Component {
         <Header />
         <Routes>
           <Route
-            path="/"
+            path="/Ecommerce"
             element={
               <ProductList
                 products={this.state.products}
